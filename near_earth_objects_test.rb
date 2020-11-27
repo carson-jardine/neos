@@ -3,7 +3,7 @@ require 'minitest/pride'
 require 'pry'
 require 'JSON'
 
-require_relative 'near_earth_objects'
+require_relative 'neos_table'
 
 class NearEarthObjectsTest < Minitest::Test
   def test_a_date_returns_a_list_of_neos
